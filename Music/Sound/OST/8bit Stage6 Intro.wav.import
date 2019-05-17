@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/8bit Stage6 Intro.wav-1dfa62bdf48af9230bc8d4d8496111f1.sample"
+
+[deps]
+
+source_file="res://Music/Sound/OST/8bit Stage6 Intro.wav"
+dest_files=[ "res://.import/8bit Stage6 Intro.wav-1dfa62bdf48af9230bc8d4d8496111f1.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

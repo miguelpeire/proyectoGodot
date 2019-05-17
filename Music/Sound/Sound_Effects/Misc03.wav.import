@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Misc03.wav-21218c2753a8da474dadeeb5c0d86a41.sample"
+
+[deps]
+
+source_file="res://Music/Sound/Sound_Effects/Misc03.wav"
+dest_files=[ "res://.import/Misc03.wav-21218c2753a8da474dadeeb5c0d86a41.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

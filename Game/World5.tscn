@@ -1,0 +1,57 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://WorldComplete.tscn" type="PackedScene" id=2]
+[ext_resource path="res://DirtAutoTile.tres" type="TileSet" id=3]
+[ext_resource path="res://Game/DeadBlockScene.tscn" type="PackedScene" id=4]
+
+[node name="World5" type="Node"]
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 470.189, 291.408 )
+
+[node name="WorldComplete" parent="." instance=ExtResource( 2 )]
+position = Vector2( 350.229, 542.971 )
+next_world = "res://Game/youwinscene.tscn"
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = ExtResource( 3 )
+cell_quadrant_size = 8
+format = 1
+tile_data = PoolIntArray( -1, 0, 1, -65536, 0, 9, -65535, 0, 196609, -65534, 0, 196609, -65533, 0, 196609, -65532, 0, 196609, -65531, 0, 196609, -65530, 0, 196609, -65529, 0, 196609, -65528, 0, 196609, -65527, 0, 196609, -65526, 0, 196609, -65525, 0, 196609, -65524, 0, 196609, -65523, 0, 10, -65522, 0, 65536, -65521, 0, 65536, -65520, 0, 2, 65535, 0, 65546, 0, 0, 65538, 13, 0, 65537, 14, 0, 131072, 15, 0, 131072, 16, 0, 65545, 131071, 0, 65541, 65538, 0, 6, 65539, 0, 196609, 65540, 0, 196609, 65541, 0, 196609, 65542, 0, 196609, 65543, 0, 196609, 65544, 0, 196609, 65545, 0, 196609, 65546, 0, 196609, 65547, 0, 7, 65552, 0, 65541, 196607, 0, 65541, 131073, 0, 196608, 131074, 0, 196612, 131083, 0, 65541, 131088, 0, 65541, 262143, 0, 65541, 196610, 0, 65541, 196612, 0, 6, 196613, 0, 196609, 196614, 0, 196609, 196615, 0, 196609, 196616, 0, 131076, 196617, 0, 196610, 196619, 0, 65541, 196624, 0, 65541, 327679, 0, 131075, 262144, 0, 196610, 262146, 0, 65541, 262148, 0, 65541, 262152, 0, 65541, 262155, 0, 65541, 262160, 0, 65541, 393215, 0, 65541, 327682, 0, 65541, 327684, 0, 65541, 327686, 0, 196608, 327687, 0, 196609, 327688, 0, 65543, 327690, 0, 1, 327691, 0, 11, 327696, 0, 65541, 458751, 0, 65541, 393217, 0, 196608, 393218, 0, 196612, 393220, 0, 65541, 393226, 0, 65546, 393227, 0, 65538, 393232, 0, 65541, 524287, 0, 65541, 458754, 0, 131077, 458756, 0, 131075, 458757, 0, 196609, 458758, 0, 196609, 458759, 0, 196609, 458760, 0, 196609, 458761, 0, 196609, 458762, 0, 65543, 458768, 0, 65541, 589823, 0, 8, 524288, 0, 2, 524292, 0, 65541, 524304, 0, 65541, 655359, 0, 65537, 589824, 0, 65547, 589825, 0, 196609, 589826, 0, 196609, 589827, 0, 196609, 589828, 0, 196611, 589829, 0, 196609, 589830, 0, 196609, 589831, 0, 196609, 589832, 0, 196609, 589833, 0, 196609, 589834, 0, 196609, 589835, 0, 7, 589838, 0, 6, 589839, 0, 196609, 589840, 0, 65543, 655371, 0, 65541, 655374, 0, 65541, 720907, 0, 65542, 720908, 0, 196609, 720909, 0, 196609, 720910, 0, 65543 )
+
+[node name="DeadBlocks" type="Node" parent="."]
+editor/display_folded = true
+
+[node name="DeadBlock" parent="DeadBlocks" instance=ExtResource( 4 )]
+position = Vector2( 868.348, 668.609 )
+
+[node name="DeadBlock2" parent="DeadBlocks" instance=ExtResource( 4 )]
+position = Vector2( 800.762, 669.091 )
+
+[node name="DeadBlock3" parent="DeadBlocks" instance=ExtResource( 4 )]
+position = Vector2( 990.877, 540.792 )
+
+[node name="DeadBlock4" parent="DeadBlocks" instance=ExtResource( 4 )]
+position = Vector2( 990.877, 476.643 )
+
+[node name="DeadBlock5" parent="DeadBlocks" instance=ExtResource( 4 )]
+position = Vector2( 990.877, 414.827 )
+
+[node name="DeadBlock6" parent="DeadBlocks" instance=ExtResource( 4 )]
+position = Vector2( 990.877, 350.677 )
+
+[node name="DeadBlock7" parent="DeadBlocks" instance=ExtResource( 4 )]
+position = Vector2( 990.877, 286.528 )
+
+[node name="DeadBlock8" parent="DeadBlocks" instance=ExtResource( 4 )]
+position = Vector2( 990.877, 224.711 )
+
+[node name="DeadBlock9" parent="DeadBlocks" instance=ExtResource( 4 )]
+position = Vector2( 990.877, 161.728 )
+
+[node name="DeadBlock10" parent="DeadBlocks" instance=ExtResource( 4 )]
+position = Vector2( 990.877, 97.5791 )
+
+[node name="DeadBlock11" parent="DeadBlocks" instance=ExtResource( 4 )]
+position = Vector2( 990.877, 87.082 )

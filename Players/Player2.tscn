@@ -1,0 +1,154 @@
+[gd_scene load_steps=77 format=2]
+
+[ext_resource path="res://Players/Player2.gd" type="Script" id=1]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/idle/frame0000.png" type="Texture" id=2]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/idle/frame0001.png" type="Texture" id=3]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/idle/frame0002.png" type="Texture" id=4]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/idle/frame0003.png" type="Texture" id=5]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/idle/frame0004.png" type="Texture" id=6]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/idle/frame0005.png" type="Texture" id=7]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/guard/frame0000.png" type="Texture" id=8]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/guard/frame0001.png" type="Texture" id=9]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/guard/frame0002.png" type="Texture" id=10]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/guard/frame0003.png" type="Texture" id=11]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/guard/frame0004.png" type="Texture" id=12]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/guard/frame0005.png" type="Texture" id=13]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/jump_loop/frame0000.png" type="Texture" id=14]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/jump_loop/frame0001.png" type="Texture" id=15]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/jump_start/frame0000.png" type="Texture" id=16]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/jump_start/frame0001.png" type="Texture" id=17]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/jump_start/frame0002.png" type="Texture" id=18]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/jump_start/frame0003.png" type="Texture" id=19]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/run/frame0000.png" type="Texture" id=20]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/run/frame0001.png" type="Texture" id=21]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/run/frame0002.png" type="Texture" id=22]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/run/frame0003.png" type="Texture" id=23]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/run/frame0004.png" type="Texture" id=24]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/run/frame0005.png" type="Texture" id=25]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/run/frame0006.png" type="Texture" id=26]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/run/frame0007.png" type="Texture" id=27]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/attack_B/frame0000.png" type="Texture" id=28]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/attack_B/frame0001.png" type="Texture" id=29]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/attack_B/frame0002.png" type="Texture" id=30]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/attack_B/frame0003.png" type="Texture" id=31]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/attack_B/frame0004.png" type="Texture" id=32]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/attack_B/frame0005.png" type="Texture" id=33]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/attack_B/frame0006.png" type="Texture" id=34]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/attack_B/frame0007.png" type="Texture" id=35]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/attack_B/frame0008.png" type="Texture" id=36]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/attack_B/frame0009.png" type="Texture" id=37]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/attack_B/frame0010.png" type="Texture" id=38]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/attack_B/frame0011.png" type="Texture" id=39]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/attack_B/frame0012.png" type="Texture" id=40]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/guard_start/frame0000.png" type="Texture" id=41]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/guard_start/frame0001.png" type="Texture" id=42]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/guard_start/frame0002.png" type="Texture" id=43]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/guard_start/frame0003.png" type="Texture" id=44]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/attack_A/frame0000.png" type="Texture" id=45]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/attack_A/frame0001.png" type="Texture" id=46]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/attack_A/frame0002.png" type="Texture" id=47]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/attack_A/frame0003.png" type="Texture" id=48]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/attack_A/frame0004.png" type="Texture" id=49]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/attack_A/frame0005.png" type="Texture" id=50]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/attack_A/frame0006.png" type="Texture" id=51]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/attack_A/frame0007.png" type="Texture" id=52]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/attack_A/frame0008.png" type="Texture" id=53]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/attack_A/frame0009.png" type="Texture" id=54]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/attack_A/frame0010.png" type="Texture" id=55]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/attack_A/frame0011.png" type="Texture" id=56]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/attack_A/frame0012.png" type="Texture" id=57]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/attack_A/frame0013.png" type="Texture" id=58]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/guard_end/frame0000.png" type="Texture" id=59]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/guard_end/frame0001.png" type="Texture" id=60]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/guard_end/frame0002.png" type="Texture" id=61]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/guard_end/frame0003.png" type="Texture" id=62]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/fall_loop/frame0000.png" type="Texture" id=63]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/fall_loop/frame0001.png" type="Texture" id=64]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/die/frame0000.png" type="Texture" id=65]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/die/frame0001.png" type="Texture" id=66]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/die/frame0002.png" type="Texture" id=67]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/die/frame0003.png" type="Texture" id=68]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/die/frame0004.png" type="Texture" id=69]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/die/frame0005.png" type="Texture" id=70]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/die/frame0006.png" type="Texture" id=71]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/die/frame0007.png" type="Texture" id=72]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/die/frame0008.png" type="Texture" id=73]
+[ext_resource path="res://player/valiant_knight/style_C/PNG/die/frame0009.png" type="Texture" id=74]
+
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 25.3962
+height = 23.3815
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ) ],
+"loop": true,
+"name": "idle",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ) ],
+"loop": true,
+"name": "block",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 14 ), ExtResource( 15 ) ],
+"loop": true,
+"name": "jump",
+"speed": 15.0
+}, {
+"frames": [ ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ) ],
+"loop": true,
+"name": "start_jump",
+"speed": 15.0
+}, {
+"frames": [ ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ) ],
+"loop": true,
+"name": "run",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ), ExtResource( 40 ) ],
+"loop": true,
+"name": "attack_B",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 41 ), ExtResource( 42 ), ExtResource( 43 ), ExtResource( 44 ) ],
+"loop": true,
+"name": "start_block",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 45 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 48 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 52 ), ExtResource( 53 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 57 ), ExtResource( 58 ) ],
+"loop": true,
+"name": "attack_A",
+"speed": 15.0
+}, {
+"frames": [ ExtResource( 59 ), ExtResource( 60 ), ExtResource( 61 ), ExtResource( 62 ) ],
+"loop": true,
+"name": "stop_block",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 63 ), ExtResource( 64 ) ],
+"loop": true,
+"name": "fall",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 65 ), ExtResource( 66 ), ExtResource( 67 ), ExtResource( 68 ), ExtResource( 69 ), ExtResource( 70 ), ExtResource( 71 ), ExtResource( 72 ), ExtResource( 73 ), ExtResource( 74 ) ],
+"loop": true,
+"name": "die",
+"speed": 5.0
+} ]
+
+[node name="Player" type="KinematicBody2D"]
+position = Vector2( 359.4, 121.501 )
+script = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( -35.816, 5.71796 )
+shape = SubResource( 1 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( -34.5773, 6.93953 )
+scale = Vector2( 0.723, 1 )
+frames = SubResource( 2 )
+animation = "idle"
+frame = 1
+playing = true

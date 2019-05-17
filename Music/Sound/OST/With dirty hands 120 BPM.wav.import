@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/With dirty hands 120 BPM.wav-91f470fa4f33032419a32cb3b86b788a.sample"
+
+[deps]
+
+source_file="res://Music/Sound/OST/With dirty hands 120 BPM.wav"
+dest_files=[ "res://.import/With dirty hands 120 BPM.wav-91f470fa4f33032419a32cb3b86b788a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

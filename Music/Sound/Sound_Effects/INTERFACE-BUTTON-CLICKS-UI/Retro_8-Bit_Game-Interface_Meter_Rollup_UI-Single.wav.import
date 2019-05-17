@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Retro_8-Bit_Game-Interface_Meter_Rollup_UI-Single.wav-30251df61718365168407a3a97ea9cc9.sample"
+
+[deps]
+
+source_file="res://Music/Sound/Sound_Effects/INTERFACE-BUTTON-CLICKS-UI/Retro_8-Bit_Game-Interface_Meter_Rollup_UI-Single.wav"
+dest_files=[ "res://.import/Retro_8-Bit_Game-Interface_Meter_Rollup_UI-Single.wav-30251df61718365168407a3a97ea9cc9.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

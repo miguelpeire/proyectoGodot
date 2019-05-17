@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Waiting for events 120 BPM.wav-99f92e399e7d3ec2ef4bbd909351a9e1.sample"
+
+[deps]
+
+source_file="res://Music/Sound/OST/Waiting for events 120 BPM.wav"
+dest_files=[ "res://.import/Waiting for events 120 BPM.wav-99f92e399e7d3ec2ef4bbd909351a9e1.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

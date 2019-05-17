@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Catch the mystery 120 BPM.wav-7362f17493463a32ba46861c03a2b9fe.sample"
+
+[deps]
+
+source_file="res://Music/Sound/OST/Catch the mystery 120 BPM.wav"
+dest_files=[ "res://.import/Catch the mystery 120 BPM.wav-7362f17493463a32ba46861c03a2b9fe.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

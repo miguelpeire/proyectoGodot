@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Retro_8-Bit_Game-Jump_Lift_TakeOff_05.wav-7b72260e1c3b585b14fb8dea5703605b.sample"
+
+[deps]
+
+source_file="res://Music/Sound/Sound_Effects/JUMP-LIFT-RISE-TAKE_OFF/Retro_8-Bit_Game-Jump_Lift_TakeOff_05.wav"
+dest_files=[ "res://.import/Retro_8-Bit_Game-Jump_Lift_TakeOff_05.wav-7b72260e1c3b585b14fb8dea5703605b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

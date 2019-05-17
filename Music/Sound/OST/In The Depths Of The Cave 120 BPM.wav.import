@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/In The Depths Of The Cave 120 BPM.wav-1a45491538dd4c9f3668acf0434bd38f.sample"
+
+[deps]
+
+source_file="res://Music/Sound/OST/In The Depths Of The Cave 120 BPM.wav"
+dest_files=[ "res://.import/In The Depths Of The Cave 120 BPM.wav-1a45491538dd4c9f3668acf0434bd38f.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

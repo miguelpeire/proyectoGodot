@@ -1,0 +1,52 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://WorldComplete.tscn" type="PackedScene" id=2]
+[ext_resource path="res://DirtAutoTile.tres" type="TileSet" id=3]
+[ext_resource path="res://Game/DeadBlockScene.tscn" type="PackedScene" id=4]
+[ext_resource path="res://GUI/font/Comfortaa-Bold.ttf" type="DynamicFontData" id=5]
+
+[sub_resource type="DynamicFont" id=1]
+size = 20
+font_data = ExtResource( 5 )
+
+[node name="Node" type="Node"]
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 25.4848, 475.358 )
+
+[node name="WorldComplete" parent="." instance=ExtResource( 2 )]
+position = Vector2( 348.047, 221.046 )
+next_world = "res://Game/World5.tscn"
+
+[node name="TileMap" type="TileMap" parent="."]
+position = Vector2( 1, 0 )
+tile_set = ExtResource( 3 )
+format = 1
+tile_data = PoolIntArray( -1, 0, 1, -65536, 0, 65536, -65535, 0, 65536, -65534, 0, 9, -65533, 0, 196609, -65532, 0, 196609, -65531, 0, 196609, -65530, 0, 196609, -65529, 0, 131076, -65528, 0, 196609, -65527, 0, 196609, -65526, 0, 196609, -65525, 0, 131076, -65524, 0, 196609, -65523, 0, 196609, -65522, 0, 196609, -65521, 0, 10, -65520, 0, 2, 65535, 0, 131073, 0, 0, 3, 1, 0, 131072, 2, 0, 65538, 7, 0, 131077, 11, 0, 131077, 15, 0, 65537, 16, 0, 65545, 131071, 0, 65546, 65536, 0, 65538, 65541, 0, 5, 65545, 0, 5, 65549, 0, 5, 65552, 0, 65541, 196607, 0, 65541, 131076, 0, 6, 131077, 0, 196611, 131078, 0, 196609, 131079, 0, 196609, 131080, 0, 196609, 131081, 0, 196611, 131082, 0, 196609, 131083, 0, 196609, 131084, 0, 196609, 131085, 0, 196611, 131086, 0, 196610, 131088, 0, 65541, 262143, 0, 65541, 196609, 0, 196613, 196611, 0, 1, 196612, 0, 11, 196624, 0, 65541, 327679, 0, 65541, 262146, 0, 196608, 262147, 0, 65544, 262148, 0, 131079, 262149, 0, 65536, 262150, 0, 65536, 262151, 0, 65536, 262152, 0, 65536, 262153, 0, 65536, 262154, 0, 65536, 262155, 0, 2, 262160, 0, 65541, 393215, 0, 8, 327680, 0, 2, 327684, 0, 65546, 327685, 0, 131072, 327686, 0, 131072, 327687, 0, 131072, 327688, 0, 131072, 327689, 0, 131072, 327690, 0, 131072, 327691, 0, 65538, 327693, 0, 196608, 327694, 0, 196610, 327696, 0, 65541, 458751, 0, 65546, 393216, 0, 65547, 393217, 0, 196609, 393218, 0, 196610, 393220, 0, 65541, 393232, 0, 65541, 524287, 0, 65541, 458756, 0, 65541, 458758, 0, 196608, 458759, 0, 196609, 458760, 0, 196609, 458761, 0, 196609, 458762, 0, 196609, 458763, 0, 196609, 458764, 0, 196609, 458765, 0, 196609, 458766, 0, 196610, 458768, 0, 65541, 589823, 0, 8, 524288, 0, 65536, 524289, 0, 65536, 524290, 0, 65536, 524291, 0, 65536, 524292, 0, 11, 524304, 0, 65541, 655359, 0, 65537, 589824, 0, 131072, 589825, 0, 131072, 589826, 0, 131072, 589827, 0, 131072, 589828, 0, 65547, 589829, 0, 196609, 589830, 0, 196609, 589831, 0, 196609, 589832, 0, 196609, 589833, 0, 196609, 589834, 0, 196609, 589835, 0, 196609, 589836, 0, 196609, 589837, 0, 196609, 589838, 0, 196609, 589839, 0, 196609, 589840, 0, 65543 )
+
+[node name="DeadBlocks" type="Node" parent="."]
+editor/display_folded = true
+
+[node name="DeadBlock" parent="DeadBlocks" instance=ExtResource( 4 )]
+position = Vector2( 160.154, 223.269 )
+
+[node name="DeadBlock11" parent="DeadBlocks" instance=ExtResource( 4 )]
+position = Vector2( 927.39, 411.879 )
+
+[node name="DeadBlock12" parent="DeadBlocks" instance=ExtResource( 4 )]
+position = Vector2( 925.882, 285.262 )
+
+[node name="DeadBlock13" parent="DeadBlocks" instance=ExtResource( 4 )]
+position = Vector2( 925.882, 221.262 )
+
+[node name="DeadBlock14" parent="DeadBlocks" instance=ExtResource( 4 )]
+position = Vector2( 249.087, 560.414 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 12.9706
+margin_top = 542.507
+margin_right = 209.971
+margin_bottom = 589.507
+custom_fonts/font = SubResource( 1 )
+text = "Be careful with fire"

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Dark Intentions 110 BPM.wav-bf8f0286a992ac64c5b964b6f8add08e.sample"
+
+[deps]
+
+source_file="res://Music/Sound/OST/Dark Intentions 110 BPM.wav"
+dest_files=[ "res://.import/Dark Intentions 110 BPM.wav-bf8f0286a992ac64c5b964b6f8add08e.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

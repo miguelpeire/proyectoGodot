@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Inside dreams 120 BPM.wav-6510ea4ebdea94389a18bca9229cfc52.sample"
+
+[deps]
+
+source_file="res://Music/Sound/OST/Inside dreams 120 BPM.wav"
+dest_files=[ "res://.import/Inside dreams 120 BPM.wav-6510ea4ebdea94389a18bca9229cfc52.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0
